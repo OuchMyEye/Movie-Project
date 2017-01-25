@@ -1,6 +1,12 @@
 import media
 import fresh_tomatoes
 
+    """ This module contains all the instances of class Movie(), an array
+    that contains the names of each instance, and the
+    open_movies_page() function where the array is passed which will generate
+    the html movie page
+    """
+
 destino = media.Movie(
 "Destino",
 "Dali & Disney collaborate on a surreal animation short",
@@ -37,5 +43,8 @@ hedwig = media.Movie(
 "https://upload.wikimedia.org/wikipedia/en/6/62/HedwigandtheAngryInchMoviePoster.jpg",
 "https://www.youtube.com/watch?v=4p9mPhGo1j0")
 
+#  create an array of instances to to passed to the open_movies_page() function
 flicks = [destino, lebowski, polyester, party, friday, hedwig]
+
+#  pass the array to the open_movies_page() function
 fresh_tomatoes.open_movies_page(flicks)
