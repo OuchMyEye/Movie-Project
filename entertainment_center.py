@@ -1,11 +1,11 @@
 import media
 import fresh_tomatoes
 
-    """ This module contains all the instances of class Movie(), an array
-    that contains the names of each instance, and the
-    open_movies_page() function where the array is passed which will generate
-    the html movie page
-    """
+""" This module contains all the instances of class Movie(), an array
+    that contains the names of each instance, and the open_movies_page()
+    function where the array is passed which will
+    generate the html movie page
+"""
 
 destino = media.Movie(
 "Destino",
